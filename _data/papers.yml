@@ -1,7 +1,7 @@
 - title: "Parameter Efficiency Is Not Memory Efficiency: Rethinking Fine-Tuning for On-Device LLM Adaptation"
-  date: "Under Review"
+  date: "Apr 2026"
   authors: '<strong>Irene Tenison</strong>, Stella Ahn, Miriam Kim, Ebtisam Alshehri, Lalana Kagal'
-  description: "A PEFT method that reduces the adapter-specific activation-memory cost by pooling the sequence dimension before the adapter’s gradient-heavy operations."
+  description: "(Preprint) A PEFT method that reduces the adapter-specific activation-memory cost by pooling the sequence dimension before the adapter’s gradient-heavy operations."
   paper: "https://arxiv.org/pdf/2604.22783"
 
 - title: "AdaBet: Gradient-free Layer Selection for Efficient Training of Deep Neural Networks"
