@@ -91,15 +91,54 @@
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
           <tr>
               <h2>Research</h2>
-              <p>
-                I'm interested in computer vision, machine learning, optimization, graphics and robotics.
-              </p>
+
             </td>
           </tr>
         </table>
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
 
-          {% for post in site.posts %}
+          <div class="papers-list">
+  {% for paper in site.data.papers %}
+  <article class="paper-entry">
+    <div class="paper-image">
+      <img src="{{ site.baseurl }}{{ paper.image }}" alt="{{ paper.title }}">
+    </div>
+
+    <div class="paper-details">
+      <div class="paper-heading">
+        <span class="paper-year">{{ paper.year }}</span>
+        <h3 class="paper-title">{{ paper.title }}</h3>
+      </div>
+
+      <div class="paper-authors">
+        {{ paper.authors }}
+      </div>
+
+      <div class="paper-venue">
+        {{ paper.venue }}
+      </div>
+
+      <p class="paper-description">
+        {{ paper.description }}
+      </p>
+
+      <div class="paper-links">
+        {% if paper.paper %}
+          <a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">Paper</a>
+        {% endif %}
+
+        {% if paper.code %}
+          <a href="{{ paper.code }}" target="_blank" rel="noopener noreferrer">Code</a>
+        {% endif %}
+
+        {% if paper.bib %}
+          <a href="{{ site.baseurl }}{{ paper.bib }}" target="_blank">Bib</a>
+        {% endif %}
+      </div>
+    </div>
+  </article>
+  {% endfor %}
+</div>
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
