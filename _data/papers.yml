@@ -3,14 +3,11 @@
   authors: '<strong>Irene Tenison</strong>, OTHER AUTHORS'
   venue: "CVPR 2026"
   description: "A gradient-free method for selecting trainable layers to improve the efficiency of deep neural network training."
-  image: "/images/adabet.png"
   paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Tenison_AdaBet_Gradient-free_Layer_Selection_for_Efficient_Training_of_Deep_Neural_CVPR_2026_paper.html"
-  code: "GITHUB_URL"
 
 - title: "FTTE: FULL PAPER TITLE"
   year: "2026"
   authors: '<strong>Irene Tenison</strong>, OTHER AUTHORS'
   venue: "IJCNN 2026 — Oral"
   description: "An efficient federated-learning method that reduces convergence time, memory consumption, and communication."
-  image: "/images/ftte.png"
   paper: "https://arxiv.org/pdf/2510.03165v2"
