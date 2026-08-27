@@ -1,26 +1,22 @@
 - title: "Parameter Efficiency Is Not Memory Efficiency: Rethinking Fine-Tuning for On-Device LLM Adaptation"
-  date: "Apr 2026"
+  date: "2026 Preprint"
   authors: '<strong>Irene Tenison</strong>, Stella Ahn, Miriam Kim, Ebtisam Alshehri, Lalana Kagal'
-  description: "(Preprint) A PEFT method that reduces the adapter-specific activation-memory cost by pooling the sequence dimension before the adapter’s gradient-heavy operations."
   paper: "https://arxiv.org/pdf/2604.22783"
 
 - title: "AdaBet: Gradient-free Layer Selection for Efficient Training of Deep Neural Networks"
   date: "Jun 2026"
   authors: '<strong>Irene Tenison</strong>, Soumyajit Chatterjee, Fahim Kawsar, Mohammad Malekzadeh'
   venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
-  description: "A gradient-free method for selecting trainable layers and channels to improve the efficiency of deep neural network training."
   paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Tenison_AdaBet_Gradient-free_Layer_Selection_for_Efficient_Training_of_Deep_Neural_CVPR_2026_paper.html"
 
 - title: "FTTE: Enabling Federated and Resource-Constrained Deep Edge Intelligence"
   date: "Jun 2026"
   authors: '<strong>Irene Tenison</strong>, Anna Murphy, Charles Beauville, Lalana Kagal'
   venue: "IEEE International Joint Conference on Neural Networks (IJCNN) — Oral"
-  description: "An efficient federated-learning method that reduces convergence time, memory consumption, and payload communication."
   paper: "https://arxiv.org/pdf/2510.03165v2"
 
 - title: "Forget to Generalize: Iterative Adaptation for Generalization in Federated Learning"
   date: "Jun 2026"
   authors: '<strong>Irene Tenison</strong>, Abdulrahman Alotaibi, Miriam Kim, Isaac Lee, Lalana Kagal
   venue: "Workshop on Federated Foundation Models for the Web, The Web Conference (WWW)"
-  description: "Iterative Federated Adaptation periodically resets selected model parameters to mitigate drift and improve generalization under non-IID federated data."
   paper: "https://arxiv.org/pdf/2602.04536"
