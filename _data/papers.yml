@@ -1,13 +1,15 @@
 - title: "AdaBet: Gradient-free Layer Selection for Efficient Training of Deep Neural Networks"
   year: "2026"
-  authors: '<strong>Irene Tenison</strong>, OTHER AUTHORS'
-  venue: "CVPR 2026"
-  description: "A gradient-free method for selecting trainable layers to improve the efficiency of deep neural network training."
+  authors: '<strong>Irene Tenison</strong>, Soumyajit Chatterjee2, Fahim Kawsar, Mohammad Malekzadeh'
+  venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
+  description: "A gradient-free method for selecting trainable layers and channels to improve the efficiency of deep neural network training."
+  image: "/images/adabet.png"
   paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Tenison_AdaBet_Gradient-free_Layer_Selection_for_Efficient_Training_of_Deep_Neural_CVPR_2026_paper.html"
 
-- title: "FTTE: FULL PAPER TITLE"
+- title: "FTTE: Enabling Federated and Resource-Constrained Deep Edge Intelligence"
   year: "2026"
-  authors: '<strong>Irene Tenison</strong>, OTHER AUTHORS'
-  venue: "IJCNN 2026 — Oral"
-  description: "An efficient federated-learning method that reduces convergence time, memory consumption, and communication."
+  authors: '<strong>Irene Tenison</strong>, Anna Murphy, Charles Beauville, Lalana Kagal'
+  venue: "IEEE International Joint Conference on Neural Networks (IJCNN)"
+  description: "An efficient federated-learning method that reduces convergence time, memory consumption, and payload communication."
+  image: "/images/ftte.png"
   paper: "https://arxiv.org/pdf/2510.03165v2"
