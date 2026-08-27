@@ -109,12 +109,15 @@
       >
     </div>
     {% endif %}
+    <div class="papers-list">
+  {% for paper in site.data.papers %}
+  <article class="paper-entry">
+    <div class="paper-date">
+      {{ paper.date }}
+    </div>
 
     <div class="paper-details">
-      <div class="paper-heading">
-        <span class="paper-year">{{ paper.year }}</span>
-        <h3 class="paper-title">{{ paper.title }}</h3>
-      </div>
+      <h3 class="paper-title">{{ paper.title }}</h3>
 
       <div class="paper-authors">
         {{ paper.authors }}
@@ -130,30 +133,27 @@
 
       <div class="paper-links">
         {% if paper.paper %}
-        <a
-          href="{{ paper.paper }}"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Paper</a>
+        <a href="{{ paper.paper }}" target="_blank" rel="noopener noreferrer">
+          Paper
+        </a>
         {% endif %}
 
         {% if paper.code %}
-        <a
-          href="{{ paper.code }}"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Code</a>
+        <a href="{{ paper.code }}" target="_blank" rel="noopener noreferrer">
+          Code
+        </a>
         {% endif %}
 
         {% if paper.bib %}
-        <a
-          href="{{ site.baseurl }}{{ paper.bib }}"
-          target="_blank"
-          rel="noopener noreferrer"
-        >Bib</a>
+        <a href="{{ site.baseurl }}{{ paper.bib }}" target="_blank">
+          Bib
+        </a>
         {% endif %}
       </div>
     </div>
+  </article>
+  {% endfor %}
+        </div>
   </article>
   {% endfor %}
 </div>
