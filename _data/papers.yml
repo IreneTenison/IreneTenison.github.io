@@ -6,7 +6,6 @@
   image: "/images/adabet.png"
   paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Tenison_AdaBet_Gradient-free_Layer_Selection_for_Efficient_Training_of_Deep_Neural_CVPR_2026_paper.html"
   code: "GITHUB_URL"
-  bib: "/bibs/adabet.bib"
 
 - title: "FTTE: FULL PAPER TITLE"
   year: "2026"
@@ -15,4 +14,3 @@
   description: "An efficient federated-learning method that reduces convergence time, memory consumption, and communication."
   image: "/images/ftte.png"
   paper: "https://arxiv.org/pdf/2510.03165v2"
-  bib: "/bibs/ftte.bib"
