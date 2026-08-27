@@ -89,27 +89,12 @@
 </table>
 
         <!-- Research -->
-<table class="section-table">
-  <tr>
-    <td class="section-cell">
-      <h2>Research</h2>
-    </td>
-  </tr>
-</table>
+<!-- Research -->
+<div class="section-cell">
+  <h2>Research</h2>
+</div>
 
 <div class="papers-list">
-  {% for paper in site.data.papers %}
-  <article class="paper-entry">
-
-    {% if paper.image %}
-    <div class="paper-image">
-      <img
-        src="{{ site.baseurl }}{{ paper.image }}"
-        alt="{{ paper.title }}"
-      >
-    </div>
-    {% endif %}
-    <div class="papers-list">
   {% for paper in site.data.papers %}
   <article class="paper-entry">
     <div class="paper-date">
@@ -153,12 +138,7 @@
     </div>
   </article>
   {% endfor %}
-        </div>
-  </article>
-  {% endfor %}
 </div>
-          
-        </table>
         <br>
         <br>
         <br>
