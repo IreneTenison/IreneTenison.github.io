@@ -1,0 +1,13 @@
+- date: "Aug 2026"
+  text: "Our work on efficient long-context inference is under submission."
+
+- date: "Jun 2026"
+  text: "Our paper AdaBet was presented at CVPR 2026."
+  link: "https://openaccess.thecvf.com/"
+
+- date: "May 2026"
+  text: "Our work on privacy-preserving AI was featured by MIT News."
+  link: "https://news.mit.edu/"
+
+- date: "Jan 2026"
+  text: "Our paper on federated learning was accepted to IJCNN 2026."
