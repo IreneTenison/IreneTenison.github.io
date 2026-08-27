@@ -79,13 +79,7 @@
           <li class="news-item">
             <span class="news-date">{{ item.date }}</span>
 
-            {% if item.link %}
-              <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
-                {{ item.text }}
-              </a>
-            {% else %}
-              <span>{{ item.text }}</span>
-            {% endif %}
+            
           </li>
           {% endfor %}
         </ul>
