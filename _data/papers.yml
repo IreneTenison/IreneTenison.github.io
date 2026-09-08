@@ -1,4 +1,4 @@
-- title: "Parameter Efficiency Is Not Memory Efficiency: Rethinking Fine-Tuning for On-Device LLM Adaptation"
+- title: "Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces"
   date: "2026 Preprint"
   authors: '<strong>Irene Tenison</strong>, Stella Ahn, Miriam Kim, Ebtisam Alshehri, Lalana Kagal'
   paper: "https://arxiv.org/pdf/2604.22783"
