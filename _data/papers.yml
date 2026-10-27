@@ -1,5 +1,15 @@
-- title: "LARS: Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces"
+- title: "RACE: RoPE-Aligned Attention Compression Based on Query-Key Activation Energies"
   date: "2026 Preprint"
+  authors: '<strong>Irene Tenison</strong>, Abdulrahman Alabdulkareem, Daniel Karl I Weidele, Nima Dehmamy, Dan Gutfreund'
+  paper: "https://arxiv.org/pdf/2610.28385"
+
+- title: "Swarm Telepathy: Prefill-Free KV-Cache Transfer Across Families"
+  date: "2026 Preprint"
+  authors: 'Abdulrahman Alabdulkareem, <strong>Irene Tenison</strong>, Yang Zhang, Yada Zhu, Boris Katz, Dan Gutfreund'
+  paper: "https://arxiv.org/pdf/2610.15095"
+
+- title: "LARS: Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces"
+  date: "Nov 2026"
   authors: '<strong>Irene Tenison</strong>, Stella Ahn, Miriam Kim, Ebtisam Alshehri, Lalana Kagal'
   venue: "Asia-Pacific Chapter of the Association for Computational Linguistics (AACL)"
   paper: "https://arxiv.org/pdf/2604.22783"
@@ -15,9 +25,3 @@
   authors: '<strong>Irene Tenison</strong>, Anna Murphy, Charles Beauville, Lalana Kagal'
   venue: "IEEE International Joint Conference on Neural Networks (IJCNN) — Oral"
   paper: "https://arxiv.org/pdf/2510.03165v2"
-
-- title: "Forget to Generalize: Iterative Adaptation for Generalization in Federated Learning"
-  date: "Jun 2026"
-  authors: '<strong>Irene Tenison</strong>, Abdulrahman Alotaibi, Miriam Kim, Isaac Lee, Lalana Kagal'
-  venue: "Workshop on Federated Foundation Models for the Web, The Web Conference (WWW)"
-  paper: "https://arxiv.org/pdf/2602.04536"
