@@ -134,6 +134,12 @@
           Bib
         </a>
         {% endif %}
+
+        {% if paper.media %}
+        <a href="{{ site.baseurl }}{{ paper.media }}" target="_blank">
+          Media
+        </a>
+        {% endif %}
       </div>
     </div>
     
