@@ -7,23 +7,27 @@
   date: "2026 Preprint"
   authors: 'Abdulrahman Alabdulkareem, <strong>Irene Tenison</strong>, Yang Zhang, Yada Zhu, Boris Katz, Dan Gutfreund'
   paper: "https://arxiv.org/pdf/2610.15095"
+  code: "https://github.com/Ar-Kareem/SwaT"
+  media: "https://explainx.ai/blog/swat-swarm-telepathy-mit-kv-cache-transfer-across-model-families-40-percent-more-accurate-4x-faster-2026"
 
 - title: "LARS: Activation-Efficient Fine-Tuning via Sequence-Compressed Low-Rank Subspaces"
   date: "Nov 2026"
   authors: '<strong>Irene Tenison</strong>, Stella Ahn, Miriam Kim, Ebtisam Alshehri, Lalana Kagal'
   venue: "Asia-Pacific Chapter of the Association for Computational Linguistics (AACL)"
   paper: "https://arxiv.org/pdf/2604.22783"
+  media: "https://www.csail.mit.edu/news/adapt-ai-model-small-device-keep-its-training-notes-concise"
 
 - title: "AdaBet: Gradient-free Layer Selection for Efficient Training of Deep Neural Networks"
   date: "Jun 2026"
   authors: '<strong>Irene Tenison</strong>, Soumyajit Chatterjee, Fahim Kawsar, Mohammad Malekzadeh'
   venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
   paper: "https://openaccess.thecvf.com/content/CVPR2026/html/Tenison_AdaBet_Gradient-free_Layer_Selection_for_Efficient_Training_of_Deep_Neural_CVPR_2026_paper.html"
+  code: "https://github.com/Nokia-Bell-Labs/efficient_layer_selection"
 
 - title: "FTTE: Enabling Federated and Resource-Constrained Deep Edge Intelligence"
   date: "Jun 2026"
   authors: '<strong>Irene Tenison</strong>, Anna Murphy, Charles Beauville, Lalana Kagal'
   venue: "IEEE International Joint Conference on Neural Networks (IJCNN) — Oral"
   code: "https://github.com/IreneTenison/FTTE"
-  paper: "https://arxiv.org/pdf/2510.03165v2"
+  paper: "https://ieeexplore.ieee.org/abstract/document/11729711"
   media: "https://news.mit.edu/2026/enabling-privacy-preserving-ai-training-everyday-devices-0429"
